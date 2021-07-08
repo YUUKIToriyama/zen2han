@@ -1,5 +1,9 @@
 use std::char;
 
+extern crate wasm_bindgen;
+use wasm_bindgen::prelude::*;
+
+#[wasm_bindgen]
 pub fn zen2han(str: &str) -> String {
     let src: Vec<char> = str.chars().collect();
     let mut dst = String::new();
