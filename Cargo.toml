@@ -1,6 +1,6 @@
 [package]
 name = "zen2han"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["YUUKIToriyama <github@toriyama.dev>"]
 description = "WASM module which convert full-width character to half-width character"
 repository = "https://github.com/YUUKIToriyama/han2zen"
